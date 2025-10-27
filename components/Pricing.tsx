@@ -1,10 +1,10 @@
 export default function Pricing() {
   return (
-    <section className="py-16 px-4 bg-gradient-to-b from-blue-50 to-white">
+    <section className="py-16 px-4 bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800">
   <div className="max-w-7xl mx-auto">
     <div className="text-center mb-12">
-      <h2 className="text-4xl font-bold text-gray-900 mb-4">Membership Plans</h2>
-      <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+      <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Membership Plans</h2>
+      <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
         Choose the healthcare plan that best fits your needs and budget
       </p>
     </div>
@@ -13,11 +13,11 @@ export default function Pricing() {
       {/* Basic Care Plan */}
       <div className="bg-white rounded-2xl shadow-lg p-8 border-2 border-gray-200 hover:border-blue-400 transition-all duration-300">
         <div className="text-center mb-6">
-          <h3 className="text-2xl font-bold text-gray-900 mb-2">Basic Care</h3>
-          <p className="text-gray-600 mb-4">Essential healthcare coverage</p>
+          <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Basic Care</h3>
+          <p className="text-gray-600 dark:text-gray-300 mb-4">Essential healthcare coverage</p>
           <div className="flex items-baseline justify-center">
             <span className="text-5xl font-bold text-blue-600">$149</span>
-            <span className="text-gray-600 ml-2">/month</span>
+            <span className="text-gray-600 dark:text-gray-300 ml-2">/month</span>
           </div>
         </div>
         <ul className="space-y-4 mb-8">
@@ -63,11 +63,11 @@ export default function Pricing() {
           <span className="bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-semibold">Most Popular</span>
         </div>
         <div className="text-center mb-6">
-          <h3 className="text-2xl font-bold text-gray-900 mb-2">Premium Care</h3>
-          <p className="text-gray-600 mb-4">Comprehensive health coverage</p>
+          <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Premium Care</h3>
+          <p className="text-gray-600 dark:text-gray-300 mb-4">Comprehensive health coverage</p>
           <div className="flex items-baseline justify-center">
             <span className="text-5xl font-bold text-blue-600">$249</span>
-            <span className="text-gray-600 ml-2">/month</span>
+            <span className="text-gray-600 dark:text-gray-300 ml-2">/month</span>
           </div>
         </div>
         <ul className="space-y-4 mb-8">
@@ -116,11 +116,11 @@ export default function Pricing() {
       {/* Elite Care Plan */}
       <div className="bg-white rounded-2xl shadow-lg p-8 border-2 border-gray-200 hover:border-blue-400 transition-all duration-300">
         <div className="text-center mb-6">
-          <h3 className="text-2xl font-bold text-gray-900 mb-2">Elite Care</h3>
-          <p className="text-gray-600 mb-4">Premium concierge healthcare</p>
+          <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Elite Care</h3>
+          <p className="text-gray-600 dark:text-gray-300 mb-4">Premium concierge healthcare</p>
           <div className="flex items-baseline justify-center">
             <span className="text-5xl font-bold text-blue-600">$399</span>
-            <span className="text-gray-600 ml-2">/month</span>
+            <span className="text-gray-600 dark:text-gray-300 ml-2">/month</span>
           </div>
         </div>
         <ul className="space-y-4 mb-8">
@@ -174,7 +174,7 @@ export default function Pricing() {
     </div>
 
     <div className="text-center mt-12">
-      <p className="text-gray-600 mb-4">All plans include access to our network of trusted healthcare providers</p>
+      <p className="text-gray-600 dark:text-gray-300 mb-4">All plans include access to our network of trusted healthcare providers</p>
       <a href="#" className="text-blue-600 font-semibold hover:text-blue-700 underline">
         Compare all plan features →
       </a>
