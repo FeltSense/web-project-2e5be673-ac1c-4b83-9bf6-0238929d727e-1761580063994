@@ -11,7 +11,7 @@ export default function Hero() {
           Accepting New Patients
         </div>
         
-        <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white leading-tight">
+        <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white dark:text-white leading-tight">
           Expert Medical Care for Your Entire Family
         </h1>
         
@@ -25,7 +25,7 @@ export default function Hero() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
             </svg>
             <div>
-              <h3 className="font-semibold text-gray-900 dark:text-white">Board-Certified Physicians with 15+ Years Experience</h3>
+              <h3 className="font-semibold text-gray-900 dark:text-white dark:text-white">Board-Certified Physicians with 15+ Years Experience</h3>
               <p className="text-gray-600 dark:text-gray-300">Our doctors hold active certifications from ABMS and maintain hospital privileges at major medical centers</p>
             </div>
           </div>
