@@ -1,6 +1,6 @@
 export default function Services() {
   return (
-    <section className="py-16 px-4 bg-gradient-to-b from-white to-blue-50 dark:from-gray-800 dark:to-gray-900">
+    <section className="py-16 px-4 bg-gradient-to-b from-white to-blue-50 dark:from-gray-900 dark:to-gray-800">
   <div className="max-w-7xl mx-auto">
     <div className="text-center mb-12">
       <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
@@ -12,7 +12,7 @@ export default function Services() {
     </div>
 
     <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-      <div className="bg-white rounded-xl shadow-lg p-8 border-t-4 border-blue-600 hover:shadow-xl transition-shadow">
+      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 border-t-4 border-blue-600 hover:shadow-xl transition-shadow">
         <div className="flex items-start space-x-4">
           <div className="flex-shrink-0">
             <div className="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center">
@@ -46,7 +46,7 @@ export default function Services() {
         </div>
       </div>
 
-      <div className="bg-white rounded-xl shadow-lg p-8 border-t-4 border-teal-600 hover:shadow-xl transition-shadow">
+      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 border-t-4 border-teal-600 hover:shadow-xl transition-shadow">
         <div className="flex items-start space-x-4">
           <div className="flex-shrink-0">
             <div className="w-14 h-14 bg-teal-100 rounded-lg flex items-center justify-center">
@@ -80,7 +80,7 @@ export default function Services() {
         </div>
       </div>
 
-      <div className="bg-white rounded-xl shadow-lg p-8 border-t-4 border-purple-600 hover:shadow-xl transition-shadow">
+      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 border-t-4 border-purple-600 hover:shadow-xl transition-shadow">
         <div className="flex items-start space-x-4">
           <div className="flex-shrink-0">
             <div className="w-14 h-14 bg-purple-100 rounded-lg flex items-center justify-center">
@@ -114,7 +114,7 @@ export default function Services() {
         </div>
       </div>
 
-      <div className="bg-white rounded-xl shadow-lg p-8 border-t-4 border-green-600 hover:shadow-xl transition-shadow">
+      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 border-t-4 border-green-600 hover:shadow-xl transition-shadow">
         <div className="flex items-start space-x-4">
           <div className="flex-shrink-0">
             <div className="w-14 h-14 bg-green-100 rounded-lg flex items-center justify-center">
@@ -154,7 +154,7 @@ export default function Services() {
         <button className="px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl">
           Schedule an Appointment
         </button>
-        <button className="px-8 py-4 bg-white text-blue-600 font-semibold rounded-lg border-2 border-blue-600 hover:bg-blue-50 transition-colors">
+        <button className="px-8 py-4 bg-white dark:bg-gray-800 text-blue-600 dark:text-blue-400 font-semibold rounded-lg border-2 border-blue-600 dark:border-blue-400 hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors">
           View All Services
         </button>
       </div>
