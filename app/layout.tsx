@@ -5,8 +5,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'CareFirst Medical Group',
-  description: 'Welcome to CareFirst Medical Group',
+  title: 'AI Medical',
+  description: 'Welcome to AI Medical',
 };
 
 export default function RootLayout({
