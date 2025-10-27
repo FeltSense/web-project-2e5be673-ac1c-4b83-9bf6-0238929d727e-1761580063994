@@ -5,8 +5,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'AI Medical',
-  description: 'Welcome to AI Medical',
+  title: 'Medical Ai Assist',
+  description: 'Welcome to Medical Ai Assist',
 };
 
 export default function RootLayout({

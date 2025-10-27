@@ -5,7 +5,7 @@ export default function Footer() {
     <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
       {/* Brand Section */}
       <div className="col-span-1 md:col-span-1">
-        <h3 className="text-white text-2xl font-bold mb-4">AI Medical</h3>
+        <h3 className="text-white text-2xl font-bold mb-4">Medical Ai Assist</h3>
         <p className="text-sm text-gray-400">
           Providing compassionate, quality healthcare to our community since 1995.
         </p>
@@ -60,7 +60,7 @@ export default function Footer() {
     {/* Bottom Bar */}
     <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
       <p className="text-sm text-gray-400">
-        &copy; {new Date().getFullYear()} AI Medical. All rights reserved.
+        &copy; {new Date().getFullYear()} Medical Ai Assist. All rights reserved.
       </p>
       <div className="flex space-x-6 mt-4 md:mt-0">
         <a href="/privacy" className="text-sm hover:text-white transition-colors">Privacy Policy</a>
