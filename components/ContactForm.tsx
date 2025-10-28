@@ -3,18 +3,11 @@
 import { useState } from 'react';
 
 export default function ContactForm() {
-  const [formData, setFormData] = useState({ name: '', email: '', phone: '', message: '' });
   const [submitted, setSubmitted] = useState(false);
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
-  };
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setSubmitted(true);
-    setFormData({ name: '', email: '', phone: '', message: '' });
   };
 
   if (submitted) {
@@ -27,13 +20,12 @@ export default function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4">
-      <div className="w-full max-w-2xl mx-auto p-6">
+    <div className="w-full max-w-2xl mx-auto p-6">
   <div className="bg-white rounded-lg shadow-lg p-8">
     <h2 className="text-3xl font-bold text-gray-800 mb-2">Contact CareFirst Medical Group</h2>
     <p className="text-gray-600 mb-6">We're here to help. Send us a message and we'll respond as soon as possible.</p>
     
-    <form className="space-y-6">
+    <form onSubmit={handleSubmit} className="space-y-6">
       <div>
         <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
           Name *
@@ -99,6 +91,5 @@ export default function ContactForm() {
     </form>
   </div>
 </div>
-    </form>
   );
 }
